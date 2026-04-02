@@ -47,11 +47,6 @@ export const services = [
 
 export const cases = [
   {
-    tag: "自動車",
-    summary: "全社AIオーケストレーター構築支援",
-    scale: "10万人規模コーポレート部門",
-  },
-  {
     tag: "ヘルスケア",
     summary: "患者向けAIチャットボット開発・LINE統合",
     scale: "複数医院展開",
@@ -62,9 +57,24 @@ export const cases = [
     scale: "全社導入",
   },
   {
-    tag: "広告・制作",
-    summary: "全社AI戦略アドバイザリー・実装支援",
-    scale: "定例顧問契約",
+    tag: "IT・広告",
+    summary: "AI戦略アドバイザリー・実装支援",
+    scale: "複数社で定例顧問契約",
+  },
+  {
+    tag: "SI・公共",
+    summary: "PM業務支援AIシステム開発",
+    scale: "エンジニアリング業務の効率化",
+  },
+  {
+    tag: "医療・DX",
+    summary: "事務業務のAIネイティブ設計・構築",
+    scale: "バックオフィス刷新",
+  },
+  {
+    tag: "自動車",
+    summary: "全社AIオーケストレーター構築支援",
+    scale: "10万人規模コーポレート部門",
   },
 ] as const
 
@@ -72,6 +82,7 @@ export const clients = [
   "NTTデータ",
   "NTTデータ東海",
   "トヨタ自動車",
+  "トヨタコネクティッド",
   "artience",
   "SCOグループ",
   "IDEE",
@@ -94,7 +105,7 @@ export const companyInfo = [
   {
     label: "取引先実績",
     value:
-      "NTTデータ / NTTデータ東海 / トヨタ自動車 / artience / SCOグループ / IDEE / パンハウス / MOL-PLUS / 兼松コミュニケーションズ / 京都大学 / beyondS / エスコン / フライヤー",
+      "NTTデータ / NTTデータ東海 / トヨタ自動車 / トヨタコネクティッド / artience / SCOグループ / IDEE / パンハウス / MOL-PLUS / 兼松コミュニケーションズ / 京都大学 / beyondS / エスコン / フライヤー",
   },
 ] as const
 
